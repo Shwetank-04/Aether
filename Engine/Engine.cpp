@@ -12,5 +12,5 @@ void Engine::prepare()
 
 void Engine::process()
 {
-
+    voice.render();
 }
