@@ -1,0 +1,19 @@
+name: Build AETHER
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Hello
+
+        run: |
+          echo "AETHER Sprint 1"
+          echo "Repository Ready"
