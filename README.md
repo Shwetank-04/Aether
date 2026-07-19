@@ -1,16 +1,8 @@
 # AETHER
 
-AETHER is a lightweight professional hybrid instrument built by Club $V.
+Professional Hybrid Instrument
 
-## Goals
+Developed by Club $V
 
-- Fast
-- Modern
-- Low CPU
-- Low RAM
-- Professional UI
-- Original Sound Engine
-
-Current Version:
-
-Sprint 1
+Status:
+Milestone 1
