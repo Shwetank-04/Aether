@@ -1,0 +1,10 @@
+build/
+Build/
+.vs/
+.vscode/
+
+*.obj
+*.dll
+*.exe
+*.zip
+*.cache
