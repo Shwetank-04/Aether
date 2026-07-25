@@ -1,17 +1,14 @@
 #pragma once
 
-#include <cmath>
-
 class Oscillator
 {
 public:
-    void prepare(double sampleRate);
+    Oscillator();
 
-    void setFrequency(float frequency);
+    void prepare(double sampleRate);
+    void setFrequency(float newFrequency);
 
     float process();
-
-    void reset();
 
 private:
     double sampleRate = 44100.0;
