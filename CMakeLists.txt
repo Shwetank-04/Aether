@@ -1,5 +1,15 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.22)
 
-project(AETHER)
+project(
+    AETHER
+    VERSION 0.1.0
+    DESCRIPTION "AETHER Hybrid Instrument"
+    LANGUAGES CXX
+)
 
-message(STATUS "Preparing AETHER...")
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+message(STATUS "Preparing AETHER v0.1")
+
+# JUCE will be added here
