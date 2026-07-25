@@ -1,43 +1,23 @@
 # AETHER
 
-AETHER is a lightweight hybrid virtual instrument created by Club $V.
+AETHER is a lightweight hybrid virtual instrument developed by Club $V.
 
-## Goals
+## Design Goals
 
 - Lightweight CPU usage
-- Professional interface
+- Professional workflow
 - Original synthesis engine
 - Original modeled instruments
-- Modern preset browser
+- Scalable interface
 - Expandable factory library
 
-## Planned Categories
+## Current Status
 
-- Pianos
-- Keys
-- Electric Guitars
-- Acoustic Guitars
-- Nylon Guitars
-- Pads
-- Strings
-- Bass
-- Synths
-- FX
+- Repository initialized
+- JUCE linked
+- Engine architecture started
+- GUI architecture started
 
-## Roadmap
+## Next Milestone
 
-### v0.1
-- Plugin framework
-- Engine foundation
-- GUI foundation
-
-### v0.5
-- Synth engine
-- ADSR
-- Filters
-- Polyphony
-
-### v1.0
-- Factory library
-- Original instruments
-- Professional GUI
+Generate and build the first working JUCE plugin.
